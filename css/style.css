@@ -1,3 +1,34 @@
-body{
-    background-color: green;
+/* *{
+    margin: 0
+    padding 0;
+    box-sizing: border-box;
+} */
+
+
+.logo-title{
+    background-color: rgb(102, 166, 240);
+    background-image: url(../img/pattern.png);
+    height: 100px;
+    color: aliceblue;
+    background-size: contain;
+}
+
+.logo{
+    width: 10%;
+    margin-top: 40px;
+}
+
+.main-title{
+    font-size: 3.5rem;
+    margin-bottom: 2px;
+}
+
+.subtitle {
+    color: gray;
+    margin-top: 1px;
+    margin-bottom: 20px;
+}
+
+span{
+    color:rgb(102, 166, 240) ;
 }
