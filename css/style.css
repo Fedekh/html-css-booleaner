@@ -54,7 +54,7 @@
 
 
 /* same attributes for many tags */
-.main-title, .subtitle, .sub, .des-photo, .article, .photo, .logo {
+.main-title, .subtitle, .sub, .des-photo, .article, .photo, .logo, .points, .head-h1, .head-h2, .t1, .t2, .aa, .last, #photo1, #photo2, table {
     margin-left: 10px;
 }
 
