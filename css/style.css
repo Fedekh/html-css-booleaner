@@ -1,3 +1,4 @@
+/* reset default value */
 *{
     margin: 0;
     padding: 0;
@@ -37,6 +38,74 @@
     padding-bottom: 20px;
 }
 
+.article{
+    padding-bottom: 60px;
+}
+
 .important {
     background-color: hsl(61, 93%, 46%);
+}
+
+.points{
+    margin-left: 20px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+
+
+/* same attributes for many tags */
+.main-title, .subtitle, .sub, .des-photo, .article, .photo, .logo {
+    margin-left: 10px;
+}
+
+.first-table {
+    background-color: rgb(4, 130, 189);
+}
+
+.head-h1, .head-h2{
+    text-align: left;
+   
+    color: white;
+    }
+.head-h1, .t1 {
+    width: 400px;
+}
+
+.head-h2, .t2 {
+    width: 1000px;
+}
+
+.aa{
+    background-color: rgb(141, 241, 233) ;
+}
+
+.t1 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+table, .last {
+    margin-bottom: 40px;
+}
+
+
+#photo1, #photo2 {
+    height: 250px;
+    width: 250px;
+    color: white;
+    margin-top: 30 px;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 1.3rem;
+    
+}
+
+#photo1 {
+    background-image: url(../img/monitor.jpg);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+#photo2{
+    background-image: url(../img/graph.jpg);
 }
