@@ -1,8 +1,8 @@
-/* *{
-    margin: 0
-    padding 0;
+*{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-} */
+} 
 
 
 .logo-title{
@@ -29,6 +29,14 @@
     margin-bottom: 20px;
 }
 
-span{
+.sub{
     color:rgb(102, 166, 240) ;
+}
+
+.des-photo{
+    padding-bottom: 20px;
+}
+
+.important {
+    background-color: hsl(61, 93%, 46%);
 }
